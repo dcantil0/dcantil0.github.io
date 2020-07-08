@@ -38,9 +38,20 @@ var Camryn_Marker = L.marker([13.9094, -60.9789], {
 	title: "Camryn wants to travel to St. Lucia"
 });
 
-Camryn_Marker.bindPopup("Camryn says Hello from St. Lucia!");
+Camryn_Marker.bindPopup("Camryn says Hello St.Lucia");
 
 // Section 002 Markers
+var Istar_Marker = L.marker([21.3891, 39.8759], {
+	title: "Istar wants to travel to Mecca"
+});
+
+Denilson_Marker.bindPopup("Denilson says Hello from Rio De Janeiro");
+
+var Denilson_Marker = L.marker([ -22.9027800-43.2075000], {
+	title: "Denilson wants to travel to Rio De Janeiro"
+});
+
+Denilson_Marker.bindPopup("Denilson says Hello from Rio De Janeiro");
 
 
 var myMap = L.map("map",
